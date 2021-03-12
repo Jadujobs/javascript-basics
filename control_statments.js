@@ -27,6 +27,16 @@ if (number > 80) {
 } else if (number <= 59) {
   console.log("C Grade");
 }
-console.log(varNum);
-console.log(letNum);
+// console.log(varNum);
+// console.log(letNum);
 // "true" is Equals to "true" => true
+
+number = 92;
+let num = "999a";
+switch (num) {
+  case "999":
+    console.log("You Passed");
+    break;
+  default:
+    console.log("Unknown");
+}

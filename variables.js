@@ -49,11 +49,48 @@ console.log(number);
 // Function Scope => var
 // Block Scope => const and let
 
-{
-  let letNum = 99;
-}
-console.log(letNum);
+// {
+//   let letNum = 99;
+// }
+// console.log(letNum);
 // var, const and let
 
 // const and let
 // {}
+
+console.clear();
+// Arrays = List
+var marks = [70, 50, 80, 60, 80];
+marks[1] = 55;
+console.log(marks[1]);
+
+var names = ["A", "b", "c", "d"];
+
+var mixedArr = ["a", 1, true, "b", "c"];
+
+console.log(mixedArr[2]);
+
+for (let i = 0; i < mixedArr.length; i++) {
+  console.log(mixedArr[i]);
+}
+
+let john = {
+  name: "John",
+  age: 22,
+  gender: "Male",
+};
+/*
+
+*/
+let userValue = "gender";
+// Key: Value
+
+let eva = {
+  name: "Eva",
+  age: 22,
+  gender: "Female",
+};
+
+console.log(john.name, john.age);
+let age = john.age;
+let name = john.name;
